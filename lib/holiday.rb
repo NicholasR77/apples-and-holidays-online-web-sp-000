@@ -42,7 +42,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
   end
 end
 
-puts second_supply_for_fourth_of_july(holiday_supplies)
+second_supply_for_fourth_of_july(holiday_supplies)
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   # holiday_hash is identical to the one above
