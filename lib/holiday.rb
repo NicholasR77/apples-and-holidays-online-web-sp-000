@@ -74,7 +74,7 @@ def all_winter_holiday_supplies(holiday_hash)
       end
     end
   end
-  winter_supplies
+  puts winter_supplies
 end
 
 all_winter_holiday_supplies(test)
@@ -93,7 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
       all_supplies.push(supply)
     end
   end
-  all_supplies
+  puts all_supplies
 end
 
 def all_holidays_with_bbq(holiday_hash)
@@ -102,7 +102,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |holiday, supply|
       if (supply.include("BBQ") == true)
-        return holiday
+        puts holiday
       end
     end
   end
