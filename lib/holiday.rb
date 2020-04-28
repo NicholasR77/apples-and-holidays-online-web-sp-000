@@ -74,7 +74,7 @@ def all_winter_holiday_supplies(holiday_hash)
       end
     end
   end
-  puts winter_supplies
+  winter_supplies
 end
 
 all_winter_holiday_supplies(test)
@@ -93,7 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
       all_supplies.push(supply)
     end
   end
-  puts all_supplies
+  all_supplies
 end
 
 def all_holidays_with_bbq(holiday_hash)
@@ -104,6 +104,6 @@ def all_holidays_with_bbq(holiday_hash)
       if (supply.include("BBQ") == true)
         return holiday
       end
-    end  
+    end
   end
 end
