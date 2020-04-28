@@ -96,7 +96,7 @@ def all_supplies_in_holidays(holiday_hash)
   puts all_supplies
 end
 
-
+#all_supplies_in_holidays(test)
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
@@ -112,4 +112,4 @@ def all_holidays_with_bbq(holiday_hash)
   bbq_supplies
 end
 
-all_holidays_with_bbq(test)
+#all_holidays_with_bbq(test)
