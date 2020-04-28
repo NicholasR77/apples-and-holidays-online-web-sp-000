@@ -94,6 +94,7 @@ def all_supplies_in_holidays(holiday_hash)
     end
   end
   puts all_supplies
+  return all_supplies
 end
 
 #all_supplies_in_holidays(test)
