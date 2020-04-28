@@ -1,6 +1,6 @@
 require 'pry'
 
-holiday_supplies = {
+test = {
   :winter => {
     :christmas => ["Lights", "Wreath"],
     :new_years => ["Party Hats"]
