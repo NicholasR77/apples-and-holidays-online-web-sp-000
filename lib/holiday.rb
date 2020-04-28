@@ -75,7 +75,6 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
   puts winter_supplies
-  return winter_supplies
 end
 
 all_winter_holiday_supplies(test)
@@ -95,10 +94,9 @@ def all_supplies_in_holidays(holiday_hash)
     end
   end
   puts all_supplies
-  return all_supplies
 end
 
-all_supplies_in_holidays(test)
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
