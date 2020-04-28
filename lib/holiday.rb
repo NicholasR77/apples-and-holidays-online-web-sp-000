@@ -40,8 +40,8 @@ def second_supply_for_fourth_of_july(holiday_hash)
        if (date == :fourth_of_july)
          date.each_with_index do |element, index|
           if (index == 1)
-            return element
-          end  
+            puts element
+          end
          end
        end
     end
