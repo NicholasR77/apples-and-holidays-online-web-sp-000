@@ -70,7 +70,9 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holiday|
     if (season == :winter)
       holiday.each do |holiday, supply|
-        winter_supplies.push(supply)
+        supply.each do |inner_supply|
+          all_supplies.push(inner_supply)
+        end
       end
     end
   end
@@ -91,9 +93,7 @@ def all_supplies_in_holidays(holiday_hash)
   all_supplies = []
   holiday_hash.each do |season, holiday|
     holiday.each do |holiday, supply|
-      supply.each do |inner_supply|
-        all_supplies.push(inner_supply)
-      end
+
     end
   end
   #puts all_supplies
