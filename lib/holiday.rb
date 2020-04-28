@@ -74,7 +74,7 @@ def all_winter_holiday_supplies(holiday_hash)
       end
     end
   end
-  puts winter_supplies
+  puts winter_supplies.Class?
 end
 
 all_winter_holiday_supplies(test)
